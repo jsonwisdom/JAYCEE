@@ -1,0 +1,26 @@
+{
+  "repo": "JAYCEE",
+  "role": "child_continuity",
+  "description": "Jaycee's continuity space — public-safe surface",
+  "authority": false,
+  "public_safe_only": true,
+  "links": {
+    "living_family_ledger": "https://github.com/jsonwisdom/COMPUTERWISDOM/blob/master/docs/living_family_ledger_v1.md",
+    "parent_continuity": "https://github.com/jsonwisdom/MARYDEE",
+    "family_constitution": "https://github.com/jsonwisdom/AL",
+    "protection_template": "https://github.com/jsonwisdom/JOY",
+    "coordination": "https://github.com/jsonwisdom/COMPUTERWISDOM",
+    "sibling_spaces": {
+      "HEIDEE": "https://github.com/jsonwisdom/HEIDEE"
+    }
+  },
+  "disallowed_content": [
+    "private_addresses",
+    "birthdates",
+    "secrets",
+    "personal_identifiers",
+    "ownership_claims"
+  ],
+  "stewardship_only": true,
+  "status": "SEEDED_ALIGNED_WITH_LEDGER"
+}
