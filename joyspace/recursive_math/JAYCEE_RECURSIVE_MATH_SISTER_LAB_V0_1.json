@@ -1,0 +1,237 @@
+{
+  "schema": "jsonwisdom.jaycee.recursive_math_sister_lab.v0.1",
+  "artifact_id": "JAYCEE_RECURSIVE_MATH_SISTER_LAB_V0_1",
+  "artifact_class": "PROTECTED_FAMILY_LEARNING_REPLAY",
+  "status": "DECLARED_NOT_PROMOTED",
+  "purpose": "Provide a child-safe recursive-math replay surface for JayCee and HeiDee while preserving family, story, identity, privacy, evidence, and authority boundaries.",
+  "learner_surface": {
+    "actor": "JAYCEE",
+    "role": "PROTECTED_LEARNER_ACTOR",
+    "grade_level": "NOT_ESTABLISHED",
+    "real_school_assignment": "NOT_ESTABLISHED",
+    "real_math_performance": "NOT_ESTABLISHED",
+    "biographical_study_claim_created": false,
+    "privacy_default": "PROTECTED"
+  },
+  "sister_edge": {
+    "edge_id": "JAYCEE_SISTER_OF_HEIDEE_v0.1",
+    "from": "JAYCEE",
+    "predicate": "SISTER_OF",
+    "to": "HEIDEE",
+    "edge_exists": true,
+    "evidence_class": "USER_DECLARED",
+    "relationship_state": "DECLARED",
+    "relationship_verified": false,
+    "declaration_context": "USER_MESSAGE_2026-08-17",
+    "adjacent_edge_inference_allowed": false
+  },
+  "existing_family_edge_references": [
+    {
+      "edge_id": "DADDY_JAY_PARENT_OF_JAYCEE_v0.2",
+      "binding": "REFERENCE_ONLY",
+      "source": "jsonwisdom/HEIDEE:joyspace/2.0/family/relationship_claims_v0_2.json",
+      "promotion": false
+    },
+    {
+      "edge_id": "DADDY_JAY_PARENT_OF_HEIDEE_v0.2",
+      "binding": "REFERENCE_ONLY",
+      "source": "jsonwisdom/HEIDEE:joyspace/2.0/family/relationship_claims_v0_2.json",
+      "promotion": false
+    }
+  ],
+  "architecture_references": {
+    "JOYSPACE": {
+      "class": "FAMILY_LEARNING_DESIGN_ARCHITECTURE",
+      "binding": "REFERENCE_ONLY",
+      "source_repo": "jsonwisdom/HEIDEE",
+      "authority_created": false
+    },
+    "JAYSPACE": {
+      "class": "FAMILY_RELATIONSHIP_REPLAY_REFERENCE",
+      "binding": "REFERENCE_ONLY",
+      "source_repo": "jsonwisdom/JOY",
+      "authority_created": false
+    },
+    "DADDY_JAY": {
+      "class": "FAMILY_STEWARD_REFERENCE",
+      "relationship_refs": [
+        "DADDY_JAY_PARENT_OF_JAYCEE_v0.2",
+        "DADDY_JAY_PARENT_OF_HEIDEE_v0.2"
+      ],
+      "external_authority_created": false
+    }
+  },
+  "recursive_math": {
+    "loop": [
+      "QUESTION",
+      "FREEZE_STATE",
+      "TRANSFORM",
+      "CHECK",
+      "COMPARE_DELTA",
+      "REVERSE",
+      "EXPLAIN",
+      "REPEAT"
+    ],
+    "concepts": [
+      "RECURSION",
+      "SEQUENCE",
+      "FUNCTION_COMPOSITION",
+      "INVARIANT",
+      "DELTA",
+      "REVERSIBILITY",
+      "GRAPH_TRAVERSAL"
+    ],
+    "win_condition": "EXPLAIN_THE_TRANSFORM_AND_PRESERVE_THE_BOUNDARIES",
+    "score_changes_evidence_state": false,
+    "repetition_creates_truth": false,
+    "reverse_replay_mutates_source": false
+  },
+  "replay_cast": [
+    {
+      "actor": "JAYCEE",
+      "class": "PROTECTED_LEARNER_ACTOR",
+      "functions": ["QUESTION", "TRY", "CHECK", "EXPLAIN"],
+      "biography_created": false
+    },
+    {
+      "actor": "HEIDEE",
+      "class": "PROTECTED_SISTER_REPLAY_ACTOR",
+      "functions": ["DOUBLE_CHECK", "ASK_AGAIN", "VERIFY_BEFORE_BELIEF"],
+      "relationship_binding": "JAYCEE_SISTER_OF_HEIDEE_v0.1"
+    },
+    {
+      "actor": "DADDY_JAY",
+      "class": "FAMILY_STEWARD_REFERENCE",
+      "functions": ["FRAME_PROBLEM", "PRESERVE_RECEIPT", "TEACH_WITHOUT_EXTERNAL_COMMAND"],
+      "authority_scope": "FAMILY_REPLAY_CONTEXT_ONLY"
+    },
+    {
+      "actor": "LEAHPRIME187",
+      "class": "SYNTHETIC_REPLAY_PERSONA_REFERENCE",
+      "functions": ["PRESENT_BOUNDED_STORY", "EXPLAIN", "TRANSLATE", "ROUTE_TO_REVIEW"],
+      "real_person_binding": false,
+      "military_authority": false
+    },
+    {
+      "actor": "LMFAO",
+      "class": "PLAYFUL_DISPLAY_TOKEN",
+      "status": "DECLARED_UNBOUND",
+      "semantic_meaning": "NOT_ASSIGNED",
+      "changes_score": false,
+      "changes_evidence": false,
+      "executes_actions": false
+    },
+    {
+      "actor": "MARYSACRED187",
+      "class": "SYNTHETIC_NARRATIVE_LABEL",
+      "status": "DECLARED_UNBOUND",
+      "functions": [],
+      "marydee_identity_binding": "NOT_ESTABLISHED",
+      "leeann_identity_binding": "NOT_ESTABLISHED",
+      "real_person_binding": false,
+      "military_authority": false
+    },
+    {
+      "actor": "SECRET_SISTER_SCIF_SYNTAX",
+      "class": "PUBLIC_PROJECT_MNEMONIC",
+      "status": "DECLARED_UNBOUND",
+      "related_reference": "jsonwisdom/LEEANN:docs/SUPER_SECRET_SISTER_SYNTAX_V0_1.md",
+      "related_reference_binding": "REFERENCE_ONLY_NOT_ALIAS",
+      "voice_runtime": "NOT_ESTABLISHED",
+      "classified_system_binding": false,
+      "scif_access_created": false,
+      "authority_created": false
+    }
+  ],
+  "math_command_grammar": {
+    "surface": "TEXT_OR_FUTURE_BOUNDED_VOICE",
+    "canonical_shape": "SISTER MATH <VERB> <TARGET>",
+    "verbs": [
+      "QUESTION",
+      "FREEZE",
+      "TRANSFORM",
+      "CHECK",
+      "COMPARE",
+      "REVERSE",
+      "EXPLAIN",
+      "REPEAT",
+      "HOLD"
+    ],
+    "execution_scope": "LOCAL_LEARNING_REPLAY_ONLY",
+    "external_effect_default": "HOLD",
+    "voice_runtime_created": false
+  },
+  "optional_story_render_reference": {
+    "artifact_id": "ALABAMA_CAMPUS_EDITION",
+    "source_repo": "jsonwisdom/AL",
+    "binding": "REFERENCE_ONLY",
+    "use": "OPTIONAL_EDUCATIONAL_STORY_SKIN",
+    "learner_identity_created": false,
+    "school_affiliation_created": false,
+    "claim_promotion": false
+  },
+  "openai_developer_surface": {
+    "state": "DESIGN_ONLY",
+    "api_key_created_by_this_artifact": false,
+    "agent_runtime_created": false,
+    "voice_runtime_created": false,
+    "external_action_runtime_created": false,
+    "model_authority": false
+  },
+  "source_bindings": [
+    {
+      "source": "jsonwisdom/JAYCEE:README.md",
+      "blob_sha": "880b64db5f08ecdbc6260f717707e578f11f545c",
+      "binding": "PUBLIC_SAFE_CONTINUITY_REFERENCE"
+    },
+    {
+      "source": "jsonwisdom/HEIDEE:joyspace/2.0/family/family_math_v0_3.json",
+      "blob_sha": "9af381b2bd90e195f7b98ecf2ad99531f6fcf78e",
+      "binding": "FAMILY_MATH_RULE_REFERENCE"
+    },
+    {
+      "source": "jsonwisdom/HEIDEE:joyspace/2.0/family/relationship_claims_v0_2.json",
+      "blob_sha": "7df5fa7e8dda34a89630b44a180b6eab58720959",
+      "binding": "FAMILY_EDGE_REFERENCE"
+    },
+    {
+      "source": "jsonwisdom/LEEANN:docs/SUPER_SECRET_SISTER_SYNTAX_V0_1.md",
+      "blob_sha": "9a2359dcac09c897ee2bdeaf6b145b468e5b0f40",
+      "binding": "RELATED_SYNTAX_REFERENCE_ONLY"
+    },
+    {
+      "source": "jsonwisdom/AL:constitution/hybrid-alabama-warfare/lanes/ALABAMA_CAMPUS_EDITION.json",
+      "blob_sha": "b174ba8b6c717788303cad898c45271264b1ccd9",
+      "binding": "OPTIONAL_RENDER_REFERENCE_ONLY"
+    }
+  ],
+  "membranes": [
+    "MATH_LESSON != BIOGRAPHY",
+    "GAME_SCORE != SCHOOL_GRADE",
+    "USER_DECLARED_SISTER_EDGE != VERIFIED_GENEALOGY",
+    "SHARED_PARENT_REFERENCES != PERMISSION_TO_INFER_ADJACENT_EDGES",
+    "JOYSPACE != JAYSPACE",
+    "JAYSPACE != AUTHORITY",
+    "DADDY_JAY_REFERENCE != EXTERNAL_AUTHORITY",
+    "LEAHPRIME187 != LEEANN_H_CHAVERS",
+    "MARYSACRED187 != MARYDEE_UNLESS_EXPLICITLY_BOUND",
+    "MARYSACRED187 != REAL_PERSON",
+    "LMFAO_TOKEN != EVIDENCE",
+    "SECRET_SISTER_SCIF_LABEL != CLASSIFIED_INFORMATION",
+    "SCIF_LABEL != SCIF_ACCESS",
+    "RELATED_SYNTAX_REFERENCE != ALIAS_BINDING",
+    "VOICE_SCHEMA != VOICE_RUNTIME",
+    "RECURSION != TRUTH",
+    "REVERSE != SOURCE_REWRITE",
+    "ALABAMA_STORY_SKIN != SCHOOL_AFFILIATION",
+    "MODEL_OUTPUT != AUTHORITY"
+  ],
+  "promotion": {
+    "canonical_promotion": false,
+    "family_edge_verification_performed": false,
+    "school_claim_created": false,
+    "military_claim_created": false,
+    "human_review_required_for_future_promotion": true
+  },
+  "authority_created": false
+}
